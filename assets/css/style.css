@@ -11,6 +11,7 @@
 html, body {
    background-color: #333;
    height: 100%;
+   text-align: center;
 }
 
 #container {
@@ -20,13 +21,11 @@ html, body {
 
 #gallery {
    margin: auto;
-   width: 80%;
+   width: 90%;
 }
 
 #images {
    margin: auto;
-   width: 100%;
-   max-width: 1500px;
 }
 
 img {
