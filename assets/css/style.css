@@ -1,0 +1,55 @@
+* {
+   -webkit-touch-callout: none; /* iOS Safari */
+     -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+         -ms-user-select: none; /* Internet Explorer/Edge */
+             user-select: none; /* Non-prefixed version, currently
+                                   supported by Chrome and Opera */
+}
+
+html, body {
+   background-color: #333;
+   height: 100%;
+}
+
+#container {
+   margin: auto;
+   width: 100%;
+}
+
+#gallery {
+   margin: auto;
+   width: 80%;
+}
+
+#images {
+   margin: auto;
+   width: 100%;
+   max-width: 1500px;
+}
+
+img {
+   max-width: 100%;
+}
+
+#back, #images, #forward {
+   display: inline-block;
+}
+
+#back, #forward {
+   position: absolute;
+   height: 100%;
+   width: 50%;
+   transform: translateY(-100%);
+}
+
+#forward {
+   transform: translate(100%, -100%);
+   
+}
+
+#photo2 {
+   position: absolute;
+   transform: translateX(100%);
+}
