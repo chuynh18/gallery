@@ -13,6 +13,7 @@ var photos = [
    "assets/img/photos/DSC_3387.jpg",
    "assets/img/photos/DSC_3666.jpg",
    "assets/img/photos/DSC_4113.jpg",
+   "assets/img/photos/DSC_5057.jpg",
    "assets/img/photos/DSC_5140.jpg",
    "assets/img/photos/DSC_5546.jpg",
    "assets/img/photos/DSC_6619.jpg",
