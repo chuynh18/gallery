@@ -2,7 +2,7 @@
 
 var counter = 0;
 
-var photos = [
+var photos = fisherYates([
    "assets/img/photos/DSC_0129.jpg",
    "assets/img/photos/DSC_0561.jpg",
    "assets/img/photos/DSC_0601.jpg",
@@ -19,6 +19,8 @@ var photos = [
    "assets/img/photos/DSC_3291.jpg",
    "assets/img/photos/DSC_3387.jpg",
    "assets/img/photos/DSC_3666.jpg",
+   "assets/img/photos/DSC_3921.jpg",
+   "assets/img/photos/DSC_3952.jpg",
    "assets/img/photos/DSC_4113.jpg",
    "assets/img/photos/DSC_4201.jpg",
    "assets/img/photos/DSC_4217.jpg",
@@ -30,7 +32,7 @@ var photos = [
    "assets/img/photos/DSC_7407.jpg",
    "assets/img/photos/DSC_7537.jpg",
    "assets/img/photos/DSC_7621.jpg"
-];
+]);
 
 function setSrc(img1, img2) {
    document.getElementById("photo1").src = img1;
@@ -60,3 +62,15 @@ function back() {
       setSrc(photos[counter], photos[counter+1]);
    }
 }
+
+function fisherYates(inputArray) {
+   for (var i = inputArray.length; i > 1; i--) {
+      var randomIndex = Math.floor(Math.random() * i);
+      var removedIndex = inputArray.splice(randomIndex, 1)[0];
+      inputArray.push(removedIndex);
+   }
+
+   return inputArray;
+}
+
+setSrc(photos[counter], photos[0]);
