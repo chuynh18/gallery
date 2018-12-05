@@ -4,12 +4,18 @@ var counter = 0;
 
 var photos = [
    "assets/img/photos/DSC_0129.jpg",
+   "assets/img/photos/DSC_0561.jpg",
+   "assets/img/photos/DSC_0739.jpg",
    "assets/img/photos/DSC_0799.jpg",
    "assets/img/photos/DSC_0872.jpg",
    "assets/img/photos/DSC_0913.jpg",
    "assets/img/photos/DSC_0962.jpg",
+   "assets/img/photos/DSC_2539.jpg",
+   "assets/img/photos/DSC_2565.jpg",
+   "assets/img/photos/DSC_2593.jpg",
    "assets/img/photos/DSC_3179.jpg",
    "assets/img/photos/DSC_3217.jpg",
+   "assets/img/photos/DSC_3291.jpg",
    "assets/img/photos/DSC_3387.jpg",
    "assets/img/photos/DSC_3666.jpg",
    "assets/img/photos/DSC_4113.jpg",
