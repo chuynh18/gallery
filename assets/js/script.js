@@ -5,6 +5,7 @@ var counter = 0;
 var photos = [
    "assets/img/photos/DSC_0129.jpg",
    "assets/img/photos/DSC_0561.jpg",
+   "assets/img/photos/DSC_0601.jpg",
    "assets/img/photos/DSC_0739.jpg",
    "assets/img/photos/DSC_0799.jpg",
    "assets/img/photos/DSC_0872.jpg",
@@ -19,6 +20,8 @@ var photos = [
    "assets/img/photos/DSC_3387.jpg",
    "assets/img/photos/DSC_3666.jpg",
    "assets/img/photos/DSC_4113.jpg",
+   "assets/img/photos/DSC_4201.jpg",
+   "assets/img/photos/DSC_4217.jpg",
    "assets/img/photos/DSC_5057.jpg",
    "assets/img/photos/DSC_5140.jpg",
    "assets/img/photos/DSC_5546.jpg",
