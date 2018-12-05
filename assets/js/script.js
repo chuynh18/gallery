@@ -6,6 +6,7 @@ var photos = fisherYates([
    "assets/img/photos/DSC_0129.jpg",
    "assets/img/photos/DSC_0561.jpg",
    "assets/img/photos/DSC_0601.jpg",
+   "assets/img/photos/DSC_0705.jpg",
    "assets/img/photos/DSC_0739.jpg",
    "assets/img/photos/DSC_0799.jpg",
    "assets/img/photos/DSC_0872.jpg",
