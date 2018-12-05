@@ -36,19 +36,29 @@ img {
    display: inline-block;
 }
 
-#back, #forward {
-   position: absolute;
+#back {
+   position: fixed;
    height: 100%;
    width: 50%;
-   transform: translateY(-100%);
+   top: 0;
+   left: 0;
 }
 
 #forward {
-   transform: translate(100%, -100%);
-   
+   position: fixed;
+   height: 100%;
+   width: 50%;
+   top: 0;
+   right: 0;
+}
+
+#photo1 {
+   z-index: 1;
 }
 
 #photo2 {
    position: absolute;
-   transform: translateX(100%);
+   z-index: -1;
+   transform: translate(-50%, -100%);
+   -moz-transform: translateX(100%);
 }
